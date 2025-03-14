@@ -62,7 +62,7 @@ function App() {
           className="button p-5 absolute top-12 right-12"
         >
           <img
-            src="/moon.svg"
+            src="./moon.svg"
             alt="moon"
             className="dark:icon-light icon-dark"
           />

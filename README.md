@@ -15,7 +15,7 @@
 - [Tailwind CSS](https://tailwindcss.com/)
 
 ## 🚀 Демо
-🔗 [Смотреть на GitHub Pages](https://your-github-username.github.io/react-counter/)  
+🔗 [Смотреть на GitHub Pages](https://alqw.github.io/react-counter/)  
 
 ## 📦 Установка и запуск
 ```sh
