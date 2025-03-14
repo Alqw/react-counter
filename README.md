@@ -20,7 +20,7 @@
 ## 📦 Установка и запуск
 ```sh
 # Клонировать репозиторий
-git clone https://github.com/your-github-username/react-counter.git
+git clone https://github.com/Alqw/react-counter.git
 
 # Перейти в папку
 cd react-counter
