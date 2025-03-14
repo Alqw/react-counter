@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --color-background: #1b1b1b;
+  --color-panel: #212121;
+  --color-borders: #232323;
+  --color-button-active: #171717;
+
+  --color-background-light: #f6f6f6;
+  --color-panel-light: #eeeeee;
+  --color-borders-light: #dadada;
+  --color-button-active-light: #d7d7d7;
+
+  --radius-20: 1.25rem;
+
+  --shadow-primary: 0 4px 10px;
+}
+
+@layer components {
+  .button {
+    @apply dark:bg-panel bg-panel-light dark:active:bg-button-active active:bg-button-active-light rounded-20 border dark:border-borders border-borders-light shadow-primary shadow-black/15 active:shadow-none transition duration-150 cursor-pointer;
+    user-select: none;
+  }
+}
+
+@utility font-poppins {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@utility icon-dark {
+  filter: invert(1);
+}
+
+@utility icon-light {
+  filter: invert(0);
+}
