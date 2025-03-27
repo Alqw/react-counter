@@ -15,7 +15,7 @@ A simple React application "Counter" built with Vite and Tailwind CSS.
 - [Tailwind CSS](https://tailwindcss.com/)
 
 ## Demo
-🔗 [View on GitHub Pages](https://alqw.github.io/react-counter/)  
+[View on GitHub Pages](https://alqw.github.io/react-counter/)  
 
 ## Installation and Setup
 ```sh
