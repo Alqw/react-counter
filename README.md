@@ -1,32 +1,32 @@
-# 🚀 Counter App
+# Counter App
 
-Простое React-приложение "Счётчик", созданное с помощью Vite и Tailwind CSS.
+A simple React application "Counter" built with Vite and Tailwind CSS.
 
-![Preview](screenshot.png) <!-- Добавь сюда ссылку на скриншот -->
+![Preview](screenshot.png)
 
-## 📌 Функционал
-- 📈 Увеличение и уменьшение счётчика
-- 🌗 Переключение темы (светлая/тёмная)
-- 🔥 Стиль на Tailwind CSS
+## Features
+- Increase and decrease the counter
+- Toggle theme (light/dark)
+- Styled with Tailwind CSS
 
-## 🛠️ Технологии
+## Technologies
 - [React](https://react.dev/)
 - [Vite](https://vitejs.dev/)
 - [Tailwind CSS](https://tailwindcss.com/)
 
-## 🚀 Демо
-🔗 [Смотреть на GitHub Pages](https://alqw.github.io/react-counter/)  
+## Demo
+🔗 [View on GitHub Pages](https://alqw.github.io/react-counter/)  
 
-## 📦 Установка и запуск
+## Installation and Setup
 ```sh
-# Клонировать репозиторий
+# Clone the repository
 git clone https://github.com/Alqw/react-counter.git
 
-# Перейти в папку
+# Navigate to the folder
 cd react-counter
 
-# Установить зависимости
+# Install dependencies
 npm install
 
-# Запустить в режиме разработки
+# Start in development mode
 npm run dev
